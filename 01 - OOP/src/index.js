@@ -1,3 +1,8 @@
+import GetPokemon from './classes/getPokemon.js';
+
+const pokemon = new GetPokemon(0, 20);
+pokemon.getPokemon();
+
 // const url = 'https://pokeapi.co/api/v2/pokemon';
 // let offset = 0;
 
